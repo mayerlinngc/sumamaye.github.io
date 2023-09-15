@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SUMA2</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+
+	<h1>JUEGO DE SUMA</h1>
+    <p>seleccione la opcion correcta</p>
+
+	<div class="container">
+		<div class="izquierdo">
+			<div class="container-operacion">
+			 	<span id="suma"></span>
+			 	<span class="resultado" id="resultado"> </span>
+			 </div>
+			 <span class="mensaje" id="mensaje">
+			 		
+			 </span>
+		</div>
+		<div class="derecha">
+			<span id="op1" class="opcion" onclick="controlarRespuesta(this)"></span>
+			<span id="op2" class="opcion" onclick="controlarRespuesta(this)"></span>
+			<span id="op3" class="opcion" onclick="controlarRespuesta(this)"></span>
+		</div>
+	</div>
+	<script src="script.js"></script>
+    
+</body>
+</html>
